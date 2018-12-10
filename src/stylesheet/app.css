@@ -1,0 +1,267 @@
+/*
+ * 공통
+ */
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+  padding: 8px;
+}
+
+a,
+a:link,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+  font-size: inherit;
+}
+.btn.linkbtn {
+  background-color: transparent;
+  font-size: 8pt;
+  color: #828282;
+  padding: 0;
+  line-height: 11px;
+  vertical-align: baseline;
+}
+.btn.linkbtn:focus {
+  box-shadow: none;
+}
+.nopage {
+  padding-top: 10px;
+  background-color: #f6f6ef;
+  height: 100px;
+}
+/* ---공통--- */
+
+/*
+ * Navigation
+ */
+.logo {
+  width: 24px;
+  height: 20px;
+  padding-right: 4px;
+  line-height: 12pt;
+}
+.logo img {
+  border: 1px white solid;
+}
+
+.navbar {
+  padding: 2px;
+  background-color: #ff6600;
+}
+.navbar-text {
+  padding: 0;
+  line-height: 12pt;
+  color: #000000;
+}
+.navbar-text :first-child {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.login {
+  padding-right: 4px;
+}
+/* ---Navigation--- */
+
+/*
+ * PostList
+ */
+.postlist {
+  padding-top: 10px;
+  background-color: #f6f6ef;
+}
+.post {
+  padding-bottom: 5px;
+}
+.post .rank {
+  display: inline-block;
+  width: 21px;
+  text-align: right;
+}
+
+.post .votelinks {
+  width: 16px;
+  height: 21px;
+  border: 0px;
+  padding: 0 5px 0 5px;
+  background: url("/image/grayarrow.gif") no-repeat;
+  line-height: 10pt;
+}
+.votelinks a {
+  vertical-align: top;
+}
+.post .title {
+  color: #000000;
+}
+.post .comhead {
+  font-size: 8pt;
+  color: #828282;
+}
+.post .comhead a {
+  color: #828282;
+}
+.post .comhead a:hover {
+  text-decoration: underline;
+}
+
+.post .subinfo {
+  font-size: 7pt;
+  line-height: 12px;
+}
+
+.post .subinfo a:hover {
+  text-decoration: underline;
+}
+
+.postlist .subinfo {
+  padding-left: 40px;
+}
+
+.more {
+  padding-top: 10px;
+  padding-left: 6px;
+  padding-bottom: 10px;
+}
+
+.morelink {
+  padding-left: 26px;
+}
+.morelink a {
+  color: #828282;
+}
+/* ---PostList--- */
+
+/*
+ * footer
+ */
+.footer {
+  background-color: #f6f6ef;
+}
+.footerline {
+  border-top: 2px solid #ff6600;
+  margin-top: 0;
+  height: 16px;
+  margin-bottom: 0;
+}
+
+.yclink {
+  font-size: 8pt;
+  margin-bottom: 16px;
+}
+.search {
+  padding-bottom: 16px;
+}
+.search form input {
+  line-height: 15px;
+}
+/* ---footer--- */
+
+/*
+ * User
+ */
+.userinfo {
+  padding-top: 10px;
+  padding-left: 2px;
+  background-color: #f6f6ef;
+  padding-bottom: 32px;
+}
+
+.userinfo .label {
+  padding-left: 1px;
+  width: 60px;
+  float: left;
+}
+.userinfo .text {
+  padding-left: 60px;
+}
+.userinfo .about {
+  padding-left: 1px;
+  width: 60px;
+}
+.userinfo .link a {
+  text-decoration: underline;
+}
+/* ---User--- */
+
+/*
+ * CommentList
+ */
+.commentlist {
+  padding-top: 10px;
+  background-color: #f6f6ef;
+}
+
+.commentlist .post {
+  padding-left: 5px;
+}
+
+.commentlist .newpost {
+  padding-top: 32px;
+  padding-left: 25px;
+  padding-bottom: 64px;
+}
+
+.commentlist .newpost textarea {
+  font-family: monospace;
+  font-size: 10pt;
+  margin-bottom: 20px;
+  display: block;
+}
+.commentlist .newpost input {
+  font-family: monospace;
+  font-size: 10pt;
+  width: 99px;
+  height: 21px;
+  display: block;
+}
+
+.commentlist .subinfo {
+  padding-left: 20px;
+}
+
+.commentbox {
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+.commentbox .votelinks {
+  width: 16px;
+  height: 21px;
+  border: 0px;
+  padding: 0 5px 0 5px;
+  background: url("/image/grayarrow.gif") no-repeat;
+  line-height: 10pt;
+}
+.votelinks a {
+  vertical-align: top;
+}
+
+.commentbox .info {
+  font-size: 8pt;
+  color: #828282;
+}
+.commentbox .expand::after {
+  content: "[-]";
+}
+.commentbox .collapse {
+  display: inline-block;
+}
+.commentbox .collapse::after {
+  content: "[+]";
+}
+
+.commentbox .comment {
+  font-size: 9pt;
+  color: #000000;
+  padding-left: 20px;
+}
+.commentbox .comment p {
+  margin: 8px 0 0 0;
+}
+.commentbox .comment .reply a {
+  margin-top: 8px;
+  text-decoration: underline;
+  font-size: 7pt;
+}
+/* ---CommentList--- */
